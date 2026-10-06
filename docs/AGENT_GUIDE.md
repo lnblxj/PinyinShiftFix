@@ -134,7 +134,3 @@ The confirmed patched uppercase result is ASCII R with mode 0x401, instead of fu
 2913 has runtime and restoration evidence. The same disk patch previously survived a full reboot; v2 itself did not receive a separate reboot test. 6456 has matching independent static and production-executable analysis, but no runtime testing on its matching OS. Repeated Shift-only failure was not reproduced.
 
 Never describe static analysis as on-device testing or a service restart as a full reboot. Explicitly record missing samples and unavailable tests.
-
-## Release
-
-Ship source, build scripts, English developer docs, and tests/prebuilt/EngineTests.exe plus TriggerLab.exe together in the developer package. The separate end-user Release contains only the application and user instructions. Exclude raw logs, personal paths, PDBs, Microsoft DLLs, backup metadata, and historical scratch scripts. Retain concise compatibility claims and known-build hashes. Select a license before describing the repository as licensed open source; this prepared tree does not choose one for the owner.
