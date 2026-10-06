@@ -1,0 +1,48 @@
+[
+  {
+    "version": "19041.2913",
+    "architecture": "AMD64",
+    "original_sha256": "EE32A592C481A01049A618DA1941C6512E5DBA4C326DACA134F9E64472AB0D32",
+    "table_rva": "0x355bc0",
+    "pointer_rva": "0x355bc8",
+    "pointer_file_offset": "0x354dc8",
+    "toggle_rva": "0x374340",
+    "insert_rva": "0x373290",
+    "old_pointer": "0x14fbf4340",
+    "new_pointer": "0x14fbf3290",
+    "toggle_guid_bytes": "db61c6e17a3dc04fb09a94036132fb65",
+    "insert_guid_bytes": "2c2a80ef9c111d4d85dac00836478f4c",
+    "patched_sha256": "37681E754A3604177A47F71D0A22CC7C831FCEAB16D9C89E8A6B242053EE9313",
+    "changed_file_offsets": [
+      "0x158",
+      "0x159",
+      "0x354dc8",
+      "0x354dc9"
+    ],
+    "static_checks": "passed",
+    "runtime_tested": true
+  },
+  {
+    "version": "19041.6456",
+    "architecture": "AMD64",
+    "original_sha256": "9E2D850C844E15E5960209F7E4A4C81B4A84FE157684012D8D423A595015F4B9",
+    "table_rva": "0x364370",
+    "pointer_rva": "0x364378",
+    "pointer_file_offset": "0x362978",
+    "toggle_rva": "0x382b50",
+    "insert_rva": "0x381a30",
+    "old_pointer": "0x14fc02b50",
+    "new_pointer": "0x14fc01a30",
+    "toggle_guid_bytes": "db61c6e17a3dc04fb09a94036132fb65",
+    "insert_guid_bytes": "2c2a80ef9c111d4d85dac00836478f4c",
+    "patched_sha256": "19DEEFC96A97CECA3FF66570874920B2391837E491450100898C4448F56D2853",
+    "changed_file_offsets": [
+      "0x150",
+      "0x151",
+      "0x362978",
+      "0x362979"
+    ],
+    "static_checks": "passed",
+    "runtime_tested": false
+  }
+]

@@ -1,0 +1,19 @@
+/bin/
+/dist/
+/artifacts/
+/samples/
+__pycache__/
+*.py[cod]
+.venv/
+.vs/
+*.user
+*.suo
+*.dll
+*.pdb
+*.exe
+*.zip
+*.log
+
+# Intentional diagnostics included with source.
+!/tests/prebuilt/EngineTests.exe
+!/tests/prebuilt/TriggerLab.exe
